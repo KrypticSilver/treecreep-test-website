@@ -73,10 +73,66 @@ nav a {
   font-family: Calibri;
 }
 
+article {
+  grid-row: 3;
+  background-color: #659099;
+  border: 4px solid #006321;
+}
+
+article h2 {
+  color: white;
+  font-size: 5rem;
+  text-align: center;
+  margin: 4rem;
+  font-family: Calibri;
+}
+
+article p {
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  margin: 6rem;
+  font-family: Calibri;
+}
+
 .sale-article {
-  background-color: #006475;
+  grid-row: 3;
+}
+
+.fundraiser-article {
+  grid-row: 4;
+}
+
+.our-mission-article {
+  grid-row: 5;
+}
+
+.employee-welfare-article {
+  grid-row: 6;
 }
 
 footer {
   background-color: #006475;
+  border: 4px solid #0e353d;
+  grid-row: 7;
+}
+
+footer ul {
+  list-style: none;
+  display: grid;
+}
+
+footer li {
+  grid-row: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  font-family: Calibri;
+  font-size: 2rem;
+  padding: 2rem;
 }
