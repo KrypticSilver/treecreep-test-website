@@ -20,11 +20,6 @@ nav {
   border: 4px solid #0e353d;
 }
 
-nav img {
-  width: 70px;
-  height: 70px;
-}
-
 nav ul {
   list-style: none;
   display: grid;
@@ -39,6 +34,12 @@ nav li {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+nav img {
+  width: 100px;
+  height: 100px;
+  padding: none;
 }
 
 nav a {
@@ -76,7 +77,8 @@ nav a {
 article {
   grid-row: 3;
   background-color: #659099;
-  border: 4px solid #006321;
+  border: 4px solid #0e353d;
+  border-bottom: 2px;
 }
 
 article h2 {
