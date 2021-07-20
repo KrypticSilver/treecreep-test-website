@@ -1,9 +1,30 @@
 * {
-  box-styling: border-box;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
 html {
-  font-size: 62.5%
+  font-size: 62.5%;
+}
+
+nav {
+  background-color: #006475;
+}
+
+nav ul {
+  list-style: none;
+  display: grid;
+  font-size: 3rem;
+  padding: 2rem;
+}
+
+nav li {
+  grid-row: 2;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
