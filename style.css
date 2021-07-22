@@ -113,25 +113,25 @@ article p {
   grid-row: 6;
 }
 
-footer {
+.socials-footer {
   background-color: #006475;
   border: 4px solid #0e353d;
   grid-row: 7;
 }
 
-footer ul {
+.socials-footer ul {
   list-style: none;
   display: grid;
 }
 
-footer li {
+.socials-footer li {
   grid-row: 1;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-footer a {
+.socials-footer a {
   text-decoration: none;
   color: white;
   font-family: Calibri;
