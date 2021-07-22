@@ -8,6 +8,7 @@ html {
   font-size: 62.5%;
 }
 
+
 body {
   background: #659099;
   display: grid;
@@ -140,6 +141,8 @@ article p {
   padding: 2rem;
 }
 
+/* Category Page ============================================================= */
+
 .title-header {
   grid-row: 3;
   grid-column: 1;
@@ -157,6 +160,7 @@ article p {
 .product-page-options {
   display: grid;
 }
+
 
 .product-page-options ul {
   margin-top: 50px;
@@ -207,7 +211,6 @@ article p {
 .product-page-options button, .product-page-options a {
   justify-self: center;
   align-self: center;
-  color: white;
   background-color: #017929;
   border-radius: 4px;
   border: none;
@@ -215,6 +218,8 @@ article p {
   height: 40px;
   font-size: 1.4rem;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+  font-weight: bold;
 }
 
 .product-page-options a {
@@ -223,11 +228,11 @@ article p {
   line-height: 40px;
 }
 
-// PRODUCTS LISTING PAGE
+/* Products Listing Page ================================================== */
 
 #listing-body {
   display: grid;
-  grid-template-columns: 100px auto;
+  grid-template-columns: 30% auto;
 }
 
 .listing-nav {
@@ -243,15 +248,26 @@ article p {
 .breadcrumbs {
   grid-row: 3;
   grid-column: 1 / span 2;
+  border: solid 4px #0e353d;
+  border-bottom: 0px;
 }
 
-.filters-section {
-  grid-row: 4;
-  grid-column: 1;
-  height: 1000px;
-  border-right: 4px solid #0e353d;
-  border-top: 4px solid #0e353d;
-  border-left: 4px solid #0e353d;
+.breadcrumbs ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: auto;
+  width: 350px;
+  margin: 20px;
+}
+
+.breadcrumbs li {
+  grid-row: 1;
+}
+
+.breadcrumbs a , p{
+  color: white;
+  font-size: 2rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .product-listing-section {
@@ -275,11 +291,27 @@ article p {
   list-style: none;
 }
 
+.filters-section {
+  grid-row: 4;
+  grid-column: 1;
+  height: 1000px;
+  border-right: 4px solid #0e353d;
+  border-top: 4px solid #0e353d;
+  border-left: 4px solid #0e353d;
+}
+
+.filters-section hr {
+  height: 4px;
+  background-color: white;
+  border-radius: 3px;
+  width: 90%;
+  margin: auto;
+}
 .filters-section h2 {
   color: white;
   font-size: 3rem;
   text-align: center;
-  margin: 4rem;
+  margin: 2rem;
   font-family: Calibri;
 }
 
