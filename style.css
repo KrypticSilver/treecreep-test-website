@@ -223,14 +223,68 @@ article p {
   line-height: 40px;
 }
 
-.product-listing-title-section {
-  background-color: #659099;
+// PRODUCTS LISTING PAGE
+
+#listing-body {
+  display: grid;
+  grid-template-columns: 100px auto;
 }
 
-.product-listing-title-section h2 {
+.listing-nav {
+  grid-row: 1;
+  grid-column: 1 / span 2;
+}
+
+.listing-products-nav {
+  grid-row: 2;
+  grid-column: 1 / span 2;
+}
+
+.breadcrumbs {
+  grid-row: 3;
+  grid-column: 1 / span 2;
+}
+
+.filters-section {
+  grid-row: 4;
+  grid-column: 1;
+  height: 1000px;
+  border-right: 4px solid #0e353d;
+  border-top: 4px solid #0e353d;
+  border-left: 4px solid #0e353d;
+}
+
+.product-listing-section {
+  grid-row: 4;
+  grid-column: 2;
+  background-color: #659099;
+  height: 1000px;
+  border-top: 4px solid #0e353d;
+  border-right: 4px solid #0e353d;
+}
+
+.product-listing-section h2 {
   color: white;
   font-size: 5rem;
   text-align: center;
   margin: 4rem;
   font-family: Calibri;
 }
+
+.product-listing-section ul {
+  list-style: none;
+}
+
+.filters-section h2 {
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  margin: 4rem;
+  font-family: Calibri;
+}
+
+.listing-socials-footer {
+  grid-row: 5;
+  grid-column: 1 / span 2;
+}
+
