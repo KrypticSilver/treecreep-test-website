@@ -305,14 +305,34 @@ article p {
   background-color: white;
   border-radius: 3px;
   width: 90%;
-  margin: auto;
+  margin: 20px auto;
 }
 .filters-section h2 {
   color: white;
   font-size: 3rem;
-  text-align: center;
   margin: 2rem;
   font-family: Calibri;
+}
+
+#filters-title {
+  text-align: center;
+}
+
+.filter-option {
+  display: inline-block;
+  margin: 10px 100px;
+}
+
+.filters-section input {
+  width: 20px;
+  height: 20px;
+}
+
+.filters-section label {
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 2rem;
+  margin: 0 5px;
 }
 
 .listing-socials-footer {
