@@ -138,3 +138,14 @@ article p {
   font-size: 2rem;
   padding: 2rem;
 }
+
+.product-page-options {
+  display: grid;
+}
+
+.product-page-options img {
+  grid-row: 1;
+  grid-column: 1;
+  width: 40%;
+  height: 40%;
+}
