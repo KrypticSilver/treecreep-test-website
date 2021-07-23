@@ -101,8 +101,12 @@ article p {
   grid-row: 3;
 }
 
-.fundraiser-article {
+.kitchen-image-section {
   grid-row: 4;
+}
+
+.kitchen-image-section img {
+  object-fit: cover;
 }
 
 .our-mission-article {
