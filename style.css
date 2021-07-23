@@ -156,6 +156,14 @@ article p {
   margin-top: 50px;
 }
 
+.title-header hr {
+  height: 4px;
+  background-color: white;
+  border-radius: 3px;
+  width: 90%;
+  margin: 40px auto 10px auto;
+}
+
 .product-page-options {
   display: grid;
 }
@@ -439,7 +447,7 @@ article p {
 
 .product-description {
   display: grid;
-  grid-template-columns: 3fr 2fr;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: auto auto auto;
   border-top: 4px solid #0e353d;
   border-left: 4px solid #0e353d;
