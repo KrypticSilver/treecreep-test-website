@@ -219,12 +219,10 @@ article p {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: white;
   font-weight: bold;
-}
-
-.product-page-options a {
   text-decoration: none;
   text-align: center;
   line-height: 40px;
+  border: 2px solid lightgreen;
 }
 
 /* Products Listing Page ================================================== */
@@ -286,6 +284,14 @@ p {
   font-family: Calibri;
 }
 
+.product-listing-section hr {
+  height: 4px;
+  background-color: white;
+  border-radius: 3px;
+  width: 90%;
+  margin: 0px auto 80px auto;
+}
+
 .product-listing-section ul {
   list-style: none;
   display: grid;
@@ -294,6 +300,7 @@ p {
 .product-listing-section li {
   justify-self: center;
   display: grid;
+  margin-bottom: 10%;
 }
 
 .product-listing-section img {
@@ -317,6 +324,10 @@ p {
   color: white;
   font-weight: bold;
   text-decoration: none;
+  text-align: center;
+  line-height: 35px;
+  margin-top: 20px;
+  border: 2px solid lightgreen;
 }
 
 .product-listing-section li:nth-child(1) {
