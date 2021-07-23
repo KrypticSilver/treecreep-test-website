@@ -242,14 +242,14 @@ article p {
   grid-column: 1 / span 2;
 }
 
-.breadcrumbs {
+.product-listing-breadcrumbs {
   grid-row: 3;
   grid-column: 1 / span 2;
   border: solid 4px #0e353d;
   border-bottom: 0px;
 }
 
-.breadcrumbs ul {
+.product-listing-breadcrumbs ul {
   list-style: none;
   display: grid;
   grid-template-columns: auto;
@@ -257,12 +257,12 @@ article p {
   margin: 20px;
 }
 
-.breadcrumbs li {
+.product-listing-breadcrumbs li {
   grid-row: 1;
 }
 
-.breadcrumbs a,
-p {
+.product-listing-breadcrumbs a,
+.product-listing-breadcrumbs p {
   color: white;
   font-size: 2rem;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -406,4 +406,90 @@ p {
 .listing-socials-footer {
   grid-row: 5;
   grid-column: 1 / span 2;
+}
+
+/* PRODUCT PAGE ========================================================== */
+
+.product-page-breadcrumbs {
+  border: solid 4px #0e353d;
+  border-bottom: 0px;
+}
+
+.product-page-breadcrumbs ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: auto;
+  width: 350px;
+  margin: 20px;
+  column-gap: 25px;
+}
+
+.product-page-breadcrumbs li {
+  grid-row: 1;
+  white-space: nowrap;
+}
+
+.product-page-breadcrumbs a,
+.product-page-breadcrumbs p {
+  color: white;
+  font-size: 2rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+}
+
+.product-description {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  grid-template-rows: auto auto auto;
+  border-top: 4px solid #0e353d;
+  border-left: 4px solid #0e353d;
+  border-right: 4px solid #0e353d;
+  background-color: #659099;
+}
+
+.product-description img {
+  grid-column: 1;
+  grid-row: 1 / span 3;
+  width: 600px;
+  height: 600px;
+  border: 4px solid #0e353d;
+  justify-self: center;
+  margin: 5% 0% 5% 5%;
+}
+
+.product-description h2 {
+  grid-column: 2;
+  grid-row: 1;
+  color: white;
+  font-size: 4rem;
+  justify-self: center;
+  margin-top: 15%;
+}
+
+.product-description p {
+  grid-column: 2;
+  grid-row: 2;
+  color: white;
+  font-size: 2rem;
+  justify-self: center;
+  margin: 8%;
+}
+
+.product-description-button {
+  grid-column: 2;
+  grid-row: 3;
+  background-color: #017929;
+  border-radius: 4px;
+  width: 90px;
+  height: 40px;
+  font-size: 1.4rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  line-height: 35px;
+  border: 2px solid lightgreen;
+  justify-self: center;
+  margin-bottom: 50px;
 }
